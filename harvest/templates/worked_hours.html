@@ -1,0 +1,10 @@
+<h1>Report</h1>
+<h2>worked hours</h2>
+
+<ul>
+{% for user in users %}
+	<li>
+		{{ user.lastname }} {{ user.hours }} hour(s)
+	</li>
+{% endfor %}
+</ul>
